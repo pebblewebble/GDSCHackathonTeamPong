@@ -13,7 +13,7 @@ function getLastRow(){
   var payload = {
   "Action": "Find",
   "Properties": {
-    "Selector": "TOP(SELECT(Job_Listings[Row ID], TRUE), 10)",
+    "Selector": "TOP(SELECT(Job_Listings[Row ID], TRUE), 100)",
     "Locale": "en-US",
     "Location": "47.623098, -122.330184",
     "Timezone": "Pacific Standard Time"
